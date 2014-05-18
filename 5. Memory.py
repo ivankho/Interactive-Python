@@ -1,5 +1,9 @@
 # implementation of card game - Memory
 
+
+# please note that this program is actually a little faulty and 
+# does not work properly as a normal game of memory would dictate.
+
 import simplegui
 import random
 
@@ -13,7 +17,7 @@ def new_game():
     index1 = ""
     index2 = ""
     count = 1
-    label.set_text("Turns = 0") #set_text was such a pain to find!!
+    label.set_text("Turns = 0")
     deck_of_cards = range(8)
     exposed = [False] * 16
     background = "Green"
